@@ -1,7 +1,11 @@
-
-  <li class="register" [routerLink]="['/Register']" routerLinkActive="router-link-active" > Register </li>
-  <li class="login" [routerLink]="['/Login']" routerLinkActive="router-link-active" > Login </li>
+<div class="container">
+  <ul style="list-style: none; display: flex; justify-content: space-between;">
+    <li routerLink='/Register'> Register </li>
+    <li routerLink='/Login'> Login </li>
+    <li routerLink='/Department'> Department </li>
+  </ul>
+</div>
 
   <router-outlet>
-    
+
   </router-outlet>

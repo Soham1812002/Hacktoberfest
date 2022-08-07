@@ -6,12 +6,20 @@ import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { RouterModule } from '@angular/router';
+import { ErrorComponent } from './error/error.component';
+import { DepartmentComponent } from './department/department.component';
+import { DepartmentidComponent } from './departmentid/departmentid.component';
+import { DepartmentnameComponent } from './departmentname/departmentname.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    ErrorComponent,
+    DepartmentComponent,
+    DepartmentidComponent,
+    DepartmentnameComponent
   ],
   imports: [
     BrowserModule,
