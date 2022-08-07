@@ -1,8 +1,7 @@
-<div class="container"> 
-    <app-login>
 
-    </app-login>
-    <app-register>
+  <li class="register" [routerLink]="['/Register']" routerLinkActive="router-link-active" > Register </li>
+  <li class="login" [routerLink]="['/Login']" routerLinkActive="router-link-active" > Login </li>
+
+  <router-outlet>
     
-    </app-register>
-</div>
+  </router-outlet>
